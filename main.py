@@ -35,7 +35,7 @@ october_2020, november_2020, december_2020 = [], [], []
 
 # Define April Data
 april19 = DayLog("4/19",170+105*23.5,960*2+90)
-april21 = DayLog("4/21",170+105*22.75+159,2220)
+april21 = DayLog("4/21",295+105*22.5+159,2220)
 
 april_2020.append(april19)
 april_2020.append(april21)

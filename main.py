@@ -34,11 +34,11 @@ july_2020, august_2020, september_2020 = [], [], []
 october_2020, november_2020, december_2020 = [], [], []
 
 # Define April Data
-april19 = DayLog("4/19",170+105*18,960*2+90)
-april20 = DayLog("4/20",0,0)
+april19 = DayLog("4/19",170+105*23.5,960*2+90)
+april21 = DayLog("4/21",170+105*22.75+159,2220)
 
 april_2020.append(april19)
-april_2020.append(april20)
+april_2020.append(april21)
 
 # Display Data --- April
 print("Month of April:")

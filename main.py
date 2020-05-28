@@ -1,13 +1,10 @@
-import matplotlib
-
 from helper_functions import *
 
 from MonthlyData2020.April_data import april_2020
 from MonthlyData2020.May_data import may_2020
 
 # Initialisation
-june_2020 = []
-july_2020, august_2020, september_2020 = [], [], []
+august_2020, september_2020 = [], []
 october_2020, november_2020, december_2020 = [], [], []
 
 # Calculate Average Net per Month

@@ -30,7 +30,7 @@ class DayLog:
   
   # Custom class Methods
   def calculate_net_calories(self):
-    pass
+    self.net = self.burned - self.consumed 
 
   def add_exercise(self,exercise):
     self.burned += exercise

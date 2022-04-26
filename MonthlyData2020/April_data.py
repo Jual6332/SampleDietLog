@@ -12,11 +12,13 @@ log1.set_date("4/19")
 log1.set_calories_burned(current_rmr)
 log1.set_calories_consumed(960*2+90)
 log1.add_exercise(170)
+log1.calculate_net_calories()
 
 log2.set_date("4/21")
 log2.set_calories_burned(current_rmr)
 log2.set_calories_consumed(2220)
 log2.add_exercise(295+159)
+log2.calculate_net_calories()
 
 # Store Data 
 april_2020.append(log1)
